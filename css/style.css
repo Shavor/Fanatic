@@ -258,7 +258,7 @@ button {
 
 #info {
     display: block;
-    background-image: url('./images/info-bg.jpg');
+    background-image: url('../images/info-bg.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -433,7 +433,7 @@ button {
 /* ===========Micro============= */
 
 #micro {
-    background-image: url('./images/micro-bg.jpg');
+    background-image: url('../images/micro-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,7 +445,7 @@ button {
 #micro::after {
     content: '';
     position: absolute;
-    background: url('./images/micro-undetree.jpg');
+    background: url('../images/micro-undetree.jpg');
     height: 456px;
     top: -89px;
     left: 0;
@@ -456,7 +456,7 @@ button {
 #micro::before {
     content: '';
     position: absolute;
-    background: url('./images/micro-whitetree.jpg');
+    background: url('../images/micro-whitetree.jpg');
     height: 452px;
     top: -171px;
     left: 0;
