@@ -20,7 +20,13 @@ a {
     color: inherit;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -42,7 +48,7 @@ ol {
 button {
     margin: 0;
     padding: 0;
-    background-color:inherit;
+    background-color: inherit;
     border: none;
 }
 
@@ -72,7 +78,7 @@ button {
 
 #header {
     position: relative;
-    background: url('/images/header-bg.jpg');
+    background: url('../images/header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -86,7 +92,7 @@ button {
     left: 0;
     right: 0;
     height: 456px;
-    background: url('/images/header-tree.svg');
+    background: url('../images/header-tree.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +107,7 @@ button {
     left: 0;
     right: 0;
     height: 456px;
-    background: url('/images/header-undetree.svg');
+    background: url('../images/header-undetree.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -252,7 +258,7 @@ button {
 
 #info {
     display: block;
-    background-image: url('/images/info-bg.jpg');
+    background-image: url('./images/info-bg.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,6 +302,7 @@ button {
     position: relative;
     z-index: 2;
 }
+
 .info__play {
     margin-top: 12px;
     display: block;
@@ -413,7 +420,7 @@ button {
 }
 
 .buy__btn:hover {
-    background:#B9C400;
+    background: #B9C400;
     border-color: #B9C400;
     color: #262C27;
 }
@@ -426,7 +433,7 @@ button {
 /* ===========Micro============= */
 
 #micro {
-    background-image: url('/images/micro-bg.jpg');
+    background-image: url('./images/micro-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,7 +445,7 @@ button {
 #micro::after {
     content: '';
     position: absolute;
-    background: url('/images/micro-undetree.jpg');
+    background: url('./images/micro-undetree.jpg');
     height: 456px;
     top: -89px;
     left: 0;
@@ -449,7 +456,7 @@ button {
 #micro::before {
     content: '';
     position: absolute;
-    background: url('/images/micro-whitetree.jpg');
+    background: url('./images/micro-whitetree.jpg');
     height: 452px;
     top: -171px;
     left: 0;
@@ -796,13 +803,13 @@ button {
         padding: 63px 0;
     }
 
-     /* ====micro===== */
+    /* ====micro===== */
 
-     #micro {
+    #micro {
         margin-bottom: 100px;
     }
 
-     .micro-inner {
+    .micro-inner {
         padding-top: 70px;
         justify-content: center;
         align-items: center;
@@ -834,7 +841,7 @@ button {
         margin: 20px auto;
     }
 
-     /* ====footer===== */
+    /* ====footer===== */
     .footer__gallery {
         gap: 37px;
         width: 100%;
@@ -864,9 +871,9 @@ button {
     .buy__inner {
         gap: 70px;
     }
-   
-     /*=========== micro ============ */
-     .micro-img {
+
+    /*=========== micro ============ */
+    .micro-img {
         border-radius: 200px 0px 300px;
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -882,7 +889,8 @@ button {
     }
 
     .micro-img__three {
-        z-index: 0;;
+        z-index: 0;
+        ;
     }
 
     /* ===========footer=========== */
@@ -997,6 +1005,7 @@ button {
 }
 
 @media (max-width: 821px) {
+
     .micro-img__one,
     .micro-img__two,
     .micro-img__three {
@@ -1014,7 +1023,7 @@ button {
         padding-top: 38px;
     }
 
-    .foote-logo svg{
+    .foote-logo svg {
         width: 286px;
         height: 72px;
     }
@@ -1080,6 +1089,7 @@ button {
         font-size: 14px;
         line-height: 13px;
     }
+
     .info__text {
         padding-top: 0px;
     }
@@ -1106,7 +1116,7 @@ button {
         text-align: center;
     }
 
-    .footer-logo svg{
+    .footer-logo svg {
         width: 200px;
         height: 71px;
     }
